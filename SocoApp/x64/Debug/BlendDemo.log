@@ -1,0 +1,50 @@
+﻿  d3dApp.cpp
+d:\project\directx\dx12test\branch005\common\d3dutil.h(367): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\d3dutil.h(370): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\d3dutil.h(383): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\d3dutil.h(386): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\descriptorheapallocator.h(43): warning C4018: “<”: 有符号/无符号不匹配
+d:\project\directx\dx12test\branch005\common\d3dapp.cpp(130): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+  SocoApp.cpp
+d:\project\directx\dx12test\branch005\common\d3dutil.h(367): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\d3dutil.h(370): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\d3dutil.h(383): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\d3dutil.h(386): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\common\descriptorheapallocator.h(43): warning C4018: “<”: 有符号/无符号不匹配
+d:\project\directx\dx12test\branch005\soco\texture.h(30): warning C4244: “return”: 从“UINT64”转换到“UINT”，可能丢失数据
+d:\project\directx\dx12test\branch005\soco\util\socodx12ex.h(99): warning C4018: “<”: 有符号/无符号不匹配
+d:\project\directx\dx12test\branch005\soco\util\socodx12ex.h(104): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\soco\util\socodx12ex.h(105): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\project\directx\dx12test\branch005\soco\util\socodx12ex.h(131): warning C4018: “<”: 有符号/无符号不匹配
+d:\project\directx\dx12test\branch005\soco\terrainrenderer.h(32): warning C4244: “=”: 从“UINT”转换到“float”，可能丢失数据
+d:\project\directx\dx12test\branch005\soco\terrainrenderer.h(33): warning C4244: “=”: 从“UINT”转换到“float”，可能丢失数据
+d:\project\directx\dx12test\branch005\socoapp.cpp(304): warning C4244: “参数”: 从“UINT64”转换到“UINT”，可能丢失数据
+d:\project\directx\dx12test\branch005\socoapp.cpp(429): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(2539): warning C4244: “参数”: 从“UINT64”转换到“UINT”，可能丢失数据
+  d:\project\directx\dx12test\branch005\socoapp.cpp(608): note: 参见对正在编译的函数 模板 实例化“std::unique_ptr<Soco::RenderTexture,std::default_delete<_Ty>> std::make_unique<Soco::RenderTexture,UINT64&,UINT&,Soco::RenderTextureFormat&,0>(UINT64 &,UINT &,Soco::RenderTextureFormat &)”的引用
+          with
+          [
+              _Ty=Soco::RenderTexture
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(616): note: 参见对正在编译的 类 模板 实例化 "std::basic_string_view<char,std::char_traits<char>>" 的引用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(2124): note: 参见对正在编译的 类 模板 实例化 "std::is_convertible<const _StringViewIsh (&),std::basic_string_view<char,std::char_traits<char>>>" 的引用
+          with
+          [
+              _StringViewIsh=char [2]
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(2122): note: 查看指向正在编译的变量模板“const bool conjunction_v<std::is_convertible<char const (&)[2],std::basic_string_view<char,std::char_traits<char> > >,std::negation<std::is_convertible<char const (&)[2],char const *> > >”的引用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(3774): note: 参见对正在编译的 别名 模板 实例化 "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Is_string_view_ish<_StringViewIsh>" 的引用
+          with
+          [
+              _StringViewIsh=char [2]
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(2538): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+  d:\project\directx\dx12test\branch005\socoapp.cpp(907): note: 参见对正在编译的函数 模板 实例化“std::unique_ptr<FrameResource,std::default_delete<_Ty>> std::make_unique<FrameResource,T*,size_t,0>(T *&&,size_t &&)”的引用
+          with
+          [
+              _Ty=FrameResource,
+              T=ID3D12Device
+          ]
+  正在生成代码...
+  BlendDemo.vcxproj -> D:\Project\directX\DX12Test\Branch005\x64\Debug\SocoTerrain.exe
